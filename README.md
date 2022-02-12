@@ -2,13 +2,14 @@
 
 Freedle is the word game for those who want to be FREE to see the world they way THEY like it!
 
-This version is forked from cwackerfuss/react-wordle (thanks Chase!). This SATIRICAL version is for Freedom Lovers! Some of the important changes that true patriots are sure to love include:
-- Loser words that nobody (but elites!) knows anyway have been removed, leaving only useful words for today's political discourse
-- Because people are saying on the internet that the letter W is really the same sex marriage of two Us, all words containing W have been removed so people are FREE not to be made uncomfortable by THOSE words
-- Of course possibly upsetting words like Black and Negro have been removed, because, well they don't matter anyway
+This SATIRICAL version of Wordle is forked from cwackerfuss/react-wordle (thanks Chase!) and is made for Freedom Lovers! Some of the important changes that true patriots are sure to love include:
+
+- LOSER words that nobody knows anyway have been removed from the list of possible answers, leaving only REAL words for speaking the TRUTH
+- People are saying on the internet that the letter W is really the same sex marriage of two Us, so all words containing W have been removed so people are FREE not to be made uncomfortable by THOSE words
+- Some other words whose lives don't matter have also been removed
 - Some proper names have been added ... you can probably guess who they are
 
-Remember folks, this is just a bit of satire, done just for fun.  
+Remember folks, this is just a bit of satire, done just for fun.  You're free to enjoy or ignore it.
 
 [**Try out the demo!**](https://freedle.herokuapp.com/)
 
