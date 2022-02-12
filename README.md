@@ -1,8 +1,15 @@
-# React Wordle
+# Freedle
 
-This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
+Freedle is the word game for those who want to be FREE to see the world they way THEY like it!
 
-[**Try out the demo!**](https://reactle.vercel.app/)
+This version is forked from cwackerfuss/react-wordle (thanks Chase!). This SATIRICAL version is for Freedom Lovers! Some of the important changes that true patriots are sure to love include:
+- Loser words that nobody (but elites!) knows anyway have been removed, leaving only useful words for today's political discourse
+- Because people are saying on the internet that the letter W is really the same sex marriage of two Us, all words containing W have been removed so people are FREE not to be made uncomfortable by THOSE words
+- Of course possibly upsetting words like Black and Negro have been removed, because, well they don't matter anyway
+
+Remember folks, this is just a bit of satire.  Let's keep our blood pressure down.
+
+[**Try out the demo!**](https://freedle.herokuapp.com/)
 
 ## Build and run
 
