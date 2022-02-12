@@ -6,8 +6,9 @@ This version is forked from cwackerfuss/react-wordle (thanks Chase!). This SATIR
 - Loser words that nobody (but elites!) knows anyway have been removed, leaving only useful words for today's political discourse
 - Because people are saying on the internet that the letter W is really the same sex marriage of two Us, all words containing W have been removed so people are FREE not to be made uncomfortable by THOSE words
 - Of course possibly upsetting words like Black and Negro have been removed, because, well they don't matter anyway
+- Some proper names have been added ... you can probably guess who they are
 
-Remember folks, this is just a bit of satire.  Let's keep our blood pressure down.
+Remember folks, this is just a bit of satire, done just for fun.  
 
 [**Try out the demo!**](https://freedle.herokuapp.com/)
 
