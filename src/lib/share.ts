@@ -5,8 +5,7 @@ import { GAME_TITLE } from '../constants/strings'
 export const shareStatus = (
   guesses: string[],
   lost: boolean,
-  isHardMode: boolean,
-  isHighContrastMode: boolean
+  isHardMode: boolean
 ) => {
   navigator.clipboard.writeText(
     `${GAME_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6${
