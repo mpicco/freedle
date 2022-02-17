@@ -29,9 +29,9 @@ export const Cell = ({
       'border-black dark:border-slate-100': value && !status,
       'absent shadowed bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700':
         status === 'absent',
-      'correct shadowed bg-green-500 text-white border-green-500':
+      'correct shadowed  text-white  bg-green-500 border-green-500':
         status === 'correct',
-      'present shadowed bg-yellow-500 text-white border-yellow-500':
+      'present shadowed  text-white  bg-yellow-500 print:bg-blue-500 border-yellow-500 print:border-blue-500':
         status === 'present',
       'cell-fill-animation': isFilled,
       'cell-reveal': shouldReveal,
