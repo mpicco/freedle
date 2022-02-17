@@ -31,8 +31,10 @@ export const Cell = ({
         status === 'absent',
       'correct shadowed  text-white  bg-green-500 border-green-500':
         status === 'correct',
-      'present shadowed  text-white  bg-yellow-500 print:bg-blue-500 border-yellow-500 print:border-blue-500':
-        status === 'present',
+      'present shadowed  text-white  bg-yellow-500 border-yellow-500':
+        status === 'present' && localStorage.getItem("contrastMode") === "normal",
+        'present shadowed text-white bg-cyan-500 border-cyan-500':
+        status === 'present' && localStorage.getItem("contrastMode") === "high"
       'cell-fill-animation': isFilled,
       'cell-reveal': shouldReveal,
     }
