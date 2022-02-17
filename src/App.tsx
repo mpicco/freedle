@@ -87,6 +87,12 @@ function App() {
       : false
   )
 
+  const [isHighContrastMode, setIsHighContrastMode] = useState(
+    localStorage.getItem('contrastMode')
+      ? localStorage.getItem('contrastMode') === 'high'
+      : false
+  )
+
   const [isMissingPreviousLetters, setIsMissingPreviousLetters] =
     useState(false)
   const [missingLetterMessage, setIsMissingLetterMessage] = useState('')
@@ -107,6 +113,19 @@ function App() {
   const handleHardMode = (isHard: boolean) => {
     setIsHardMode(isHard)
     localStorage.setItem('gameMode', isHard ? 'hard' : 'normal')
+  }
+
+  useEffect(() => {
+    if (isHighContrastMode) {
+      document.documentElement.classList.add('highcontrast')
+    } else {
+      document.documentElement.classList.remove('highcontrast')
+    }
+  }, [isHighContrastMode])
+
+  const handleHighContrastMode = (isHighContrast: boolean) => {
+    setIsHighContrastMode(isHighContrast)
+    localStorage.setItem('contrastMode', isHighContrast ? 'high' : 'normal')
   }
 
   useEffect(() => {
@@ -253,6 +272,7 @@ function App() {
           return setTimeout(() => setSuccessAlert(''), ALERT_TIME_MS)
         }}
         isHardMode={isHardMode}
+        isHighContrastMode={isHighContrastMode}
       />
       <AboutModal
         isOpen={isAboutModalOpen}
@@ -263,6 +283,8 @@ function App() {
         handleClose={() => setIsSettingsModalOpen(false)}
         isHardMode={isHardMode}
         handleHardMode={handleHardMode}
+        isHighContrastMode={isHighContrastMode}
+        handleHighContrastMode={handleHighContrastMode}
         isDarkMode={isDarkMode}
         handleDarkMode={handleDarkMode}
       />
